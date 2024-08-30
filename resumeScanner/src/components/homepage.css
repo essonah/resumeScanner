@@ -1,0 +1,58 @@
+/* Homepage.css */
+
+.container {
+    padding: 20px;
+    background-color: #f7f7f7;
+    min-height: 100vh;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1.125rem;
+    margin-bottom: 16px;
+}
+
+.section {
+    margin-bottom: 32px;
+}
+
+/* Flex container for resume and job description */
+.text-area-container {
+    display: flex;
+    gap: 20px; /* Space between the two text areas */
+}
+
+/* Each column containing label and textarea */
+.text-area-column {
+    flex: 1; /* Ensures both columns take up equal width */
+    display: flex;
+    flex-direction: column; /* Stack label and textarea vertically */
+}
+
+.label {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+
+
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 24px;
+    font-size: 1.125rem;
+    font-weight: medium;
+}
